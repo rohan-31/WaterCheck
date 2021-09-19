@@ -24,7 +24,7 @@ Using HTML and CSS, I created a landing page with a link to my GitHub repo, cont
 
 
 
-As a beginner, I had very basic knowledge of any of the tools I have mentioned., so it was intially very challenging to convert the idea into a usable program. Also, I was rather pressed for time, so I was unable to create a user interface to better interact with the model.
+As a beginner, I had very basic knowledge of any of the tools I have mentioned., so it was initially very challenging to convert the idea into a usable program. Also, I was rather pressed for time, so I was unable to create a user interface to better interact with the model.
 
 I am currently using the Flask API to create a better user interface and improve the usability of the model.
 
