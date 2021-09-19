@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width , inital-scale=1.0">
+        <link rel ="stylesheet" href= "style1.css">
+    </head>
+    <body>
+        <div class="img1">
+            <div class="ptext">
+                <span class="border">
+                    WATERCHECK : CHECK THE QUALITY OF YOUR WATER SAMPLE
+                </span>
+            </div>
+            
+        </div>
+        <section class= "section section-light">
+            Potable water simply means water that is safe to drink, and it is becoming scarcer in the world. 
+            Increasing use is stressing freshwater resources worldwide, and a seemingly endless list of contaminants can turn once potable water into a health hazard.
+
+            Potable Water comes from surface and ground sources and is treated to meet the required standards for consumption.
+
+            Water from natural sources is treated for microorganisms, bacteria, toxic chemicals, viruses and fecal matter.
+            Drinking raw, untreated water can cause gastrointestinal problems such as diarrhea, vomiting or fever.
+
+            In such a situation, it may be best to identify and understand the potability of your own sources of water,
+            to ensure that they are safe and fit for consumption.
+
+            Through this application, I aim to analyse a few samples of water, 
+            test for potential potability and verify with the given values.
+
+            <a href="https://github.com/rohan-31/WaterCheck">Link to my GitHub repository</a>
+        </section>
+    </body>
+    <div>
+        <form action="/predict" method="POST">
+          <label for="number1">Number code of the sample</label>
+          <input type="number" step="0.01" id="number1" name="number1">
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</html>
